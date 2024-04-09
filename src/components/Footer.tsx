@@ -8,7 +8,7 @@ const Footer: FunctionComponent = () => {
         <div className={styles.companyInfo}>
           <div className={styles.company}>
             <div className={styles.logo}>
-              <img className={styles.plant1Icon} alt="" src="/plant-1.svg" />
+              <img className={styles.plant1Icon} alt="" />
               <h1 className={styles.ecobazar}>Ecobazar</h1>
             </div>
             <div className={styles.morbiCursusPorttitor}>
@@ -74,40 +74,15 @@ const Footer: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.paymentMethods}>
-          <img
-            className={styles.methodapplepayIcon}
-            loading="lazy"
-            alt=""
-            src="/methodapplepay@2x.png"
-          />
-          <img
-            className={styles.methodvisaIcon}
-            loading="lazy"
-            alt=""
-            src="/methodvisa@2x.png"
-          />
-          <img
-            className={styles.methoddiscoverIcon}
-            loading="lazy"
-            alt=""
-            src="/methoddiscover@2x.png"
-          />
-          <img
-            className={styles.methodmastercardIcon}
-            loading="lazy"
-            alt=""
-            src="/methodmastercard@2x.png"
-          />
+          <img className={styles.methodapplepayIcon} loading="lazy" alt="" />
+          <img className={styles.methodvisaIcon} loading="lazy" alt="" />
+          <img className={styles.methoddiscoverIcon} loading="lazy" alt="" />
+          <img className={styles.methodmastercardIcon} loading="lazy" alt="" />
           <div className={styles.cart}>
             <div className={styles.base} />
             <div className={styles.securityIcon}>
               <div className={styles.lockIconContainer}>
-                <img
-                  className={styles.lock1Icon}
-                  loading="lazy"
-                  alt=""
-                  src="/lock-1.svg"
-                />
+                <img className={styles.lock1Icon} loading="lazy" alt="" />
                 <div className={styles.secure}>Secure</div>
               </div>
             </div>

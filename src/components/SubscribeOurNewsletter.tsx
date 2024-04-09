@@ -18,7 +18,11 @@ const SubscribeOurNewsletter: FunctionComponent = () => {
         <div className={styles.inputArea}>
           <div className={styles.subscribe}>
             <div className={styles.inputField}>
-              <div className={styles.yourEmailAddress}>Your email address</div>
+              <input
+                className={styles.yourEmailAddress}
+                placeholder="Your email address"
+                type="text"
+              />
             </div>
             <button className={styles.button}>
               <div className={styles.subscribe1}>Subscribe</div>
@@ -26,27 +30,10 @@ const SubscribeOurNewsletter: FunctionComponent = () => {
           </div>
           <div className={styles.socialMediaArea}>
             <div className={styles.socialMediaIcons}>
-              <img
-                className={styles.socialMediaIcon}
-                loading="lazy"
-                alt=""
-                src="/social-media.svg"
-              />
-              <img
-                className={styles.socialMediaIcon1}
-                alt=""
-                src="/social-media-1.svg"
-              />
-              <img
-                className={styles.socialMediaIcon2}
-                alt=""
-                src="/social-media-2.svg"
-              />
-              <img
-                className={styles.socialMediaIcon3}
-                alt=""
-                src="/social-media-3.svg"
-              />
+              <img className={styles.socialMediaIcon} loading="lazy" alt="" />
+              <img className={styles.socialMediaIcon1} alt="" />
+              <img className={styles.socialMediaIcon2} alt="" />
+              <img className={styles.socialMediaIcon3} alt="" />
             </div>
           </div>
         </div>

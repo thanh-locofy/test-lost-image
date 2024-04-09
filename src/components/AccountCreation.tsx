@@ -17,11 +17,7 @@ const AccountCreation: FunctionComponent = () => {
                 placeholder="Password"
                 type="text"
               />
-              <img
-                className={styles.eyeOpen1Icon}
-                alt=""
-                src="/eyeopen-1.svg"
-              />
+              <img className={styles.eyeOpen1Icon} alt="" />
             </div>
           </div>
           <div className={styles.remember}>
