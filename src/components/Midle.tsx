@@ -7,19 +7,14 @@ const Midle: FunctionComponent = () => {
       <div className={styles.logoContainer}>
         <div className={styles.logo}>
           <div className={styles.plant1Wrapper}>
-            <img
-              className={styles.plant1Icon}
-              loading="lazy"
-              alt=""
-              src="/plant-1.svg"
-            />
+            <img className={styles.plant1Icon} loading="lazy" alt="" />
           </div>
           <h1 className={styles.ecobazar}>Ecobazar</h1>
         </div>
       </div>
       <div className={styles.search}>
         <div className={styles.searech}>
-          <img className={styles.searchIcon} alt="" src="/search.svg" />
+          <img className={styles.searchIcon} alt="" />
           <input className={styles.search1} placeholder="Search" type="text" />
         </div>
         <button className={styles.button}>
@@ -29,24 +24,14 @@ const Midle: FunctionComponent = () => {
       <div className={styles.actionIcons}>
         <div className={styles.icons}>
           <div className={styles.heartWrapper}>
-            <img
-              className={styles.heartIcon}
-              loading="lazy"
-              alt=""
-              src="/heart.svg"
-            />
+            <img className={styles.heartIcon} loading="lazy" alt="" />
           </div>
           <div className={styles.deviderWrapper}>
             <div className={styles.devider} />
           </div>
           <div className={styles.shoppingCard}>
             <div className={styles.cart}>
-              <img
-                className={styles.bagIcon}
-                loading="lazy"
-                alt=""
-                src="/bag.svg"
-              />
+              <img className={styles.bagIcon} loading="lazy" alt="" />
               <div className={styles.no}>
                 <div className={styles.div}>2</div>
               </div>

@@ -240,9 +240,9 @@
   padding: var(--padding-5xl) var(--padding-xl);
   box-sizing: border-box;
   gap: var(--gap-201xl);
+  position: sticky;
   top: 0;
   z-index: 99;
-  position: sticky;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);

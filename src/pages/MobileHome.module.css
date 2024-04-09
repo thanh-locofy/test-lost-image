@@ -188,8 +188,8 @@
   background-color: var(--gray-scale-white);
   overflow: hidden;
   gap: 141px;
-  line-height: normal;
   letter-spacing: normal;
+  line-height: normal;
 }
 @media screen and (max-width: 1350px) {
   .smallOne {

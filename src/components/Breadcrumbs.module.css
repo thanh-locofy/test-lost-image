@@ -101,7 +101,6 @@
 .breadcrumbs {
   align-self: stretch;
   padding: var(--padding-29xl) var(--padding-281xl);
-  background-image: url(/public/breadcrumbs@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

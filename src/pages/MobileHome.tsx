@@ -14,12 +14,7 @@ const MobileHome: FunctionComponent = () => {
         <header className={styles.navigation}>
           <div className={styles.smallOne}>
             <div className={styles.contact}>
-              <img
-                className={styles.mapPinIcon}
-                loading="lazy"
-                alt=""
-                src="/map-pin.svg"
-              />
+              <img className={styles.mapPinIcon} loading="lazy" alt="" />
               <div className={styles.storeDetails}>
                 <div className={styles.storeLocationLincoln}>
                   Store Location: Lincoln- 344, Illinois, Chicago, USA
@@ -31,17 +26,13 @@ const MobileHome: FunctionComponent = () => {
                 <div className={styles.eng}>
                   <div className={styles.eng1}>Eng</div>
                   <div className={styles.groupWrapper}>
-                    <img className={styles.groupIcon} alt="" src="/group.svg" />
+                    <img className={styles.groupIcon} alt="" />
                   </div>
                 </div>
                 <div className={styles.usd}>
                   <div className={styles.usd1}>USD</div>
                   <div className={styles.groupContainer}>
-                    <img
-                      className={styles.groupIcon1}
-                      alt=""
-                      src="/group.svg"
-                    />
+                    <img className={styles.groupIcon1} alt="" />
                   </div>
                 </div>
                 <div className={styles.devider} />
